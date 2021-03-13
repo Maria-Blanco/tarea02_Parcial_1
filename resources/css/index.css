@@ -45,21 +45,21 @@ body {
     padding: 0px;
    }
 #info div {
-    width: 93%;
-                            background-color: powderblue;
-                            display: block;
-                            margin-left: auto;
-                            margin-right: auto;
-                            margin-top: 5px;
-                            margin-bottom: 5px;
-    border-radius: 0px 0px 10px 10px; 
-    padding: 5px;
+            width: 93%;
+            background-color: powderblue;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 5px;
+            margin-bottom: 5px;
+            border-radius: 0px 0px 10px 10px; 
+            padding: 5px;
    } 
 #info div:not(:nth-child(1)) {
     display: none;
    } 
 #info div:target {
-    display: inline-block;
+    display: block;
 }
 /*TABLA*/
 #tabla {
