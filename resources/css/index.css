@@ -1,3 +1,86 @@
+/*HEADER*/
+header {
+            background-color: aquamarine;
+}
+header > nav >ul {
+                    justify-content: flex-end;
+}
+header > nav >ul > li > a {
+                            margin-right: 10px;
+                            color: black;
+                            font-size: large;
+                            font-weight: bold;
+}
+header > nav >ul > li > a:hover {
+                                    color: rgb(36, 13, 139);
+                                    font-size: larger;
+                                    font-weight: bolder;
+}
+
+/*BODY*/
+body {
+        background-color: wheat;
+        justify-content: center;
+}
+#cuadro {
+            background-color: thistle;
+            width: 95%;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 20px;
+            padding: 20px;
+}
+#cuadro > section > div {
+                            width: 93%;
+                            background-color: powderblue;
+                            display: block;
+                            margin-left: auto;
+                            margin-right: auto;
+                            margin-top: 5px;
+                            margin-bottom: 5px;
+}
+#cuadro > ul {
+                justify-content: center;
+}
+#cuadro > ul > li > a {
+                        margin-right: 25px;
+                        margin-left: 25px;
+}
+#tabla {
+            background-color: plum;
+            width: 95%;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 10px;
+            margin-bottom: 20px;
+            padding: 20px;
+}
+#tabla > table {
+                    width: 30%;
+                    background-color: powderblue;
+                    display: block;
+                    margin-left: auto;
+                    margin-right: auto;
+                    margin-top: 5px;
+                    margin-bottom: 5px;
+}
+
+/*FOOTER*/
 footer {
             background-color: aqua;
+}
+
+/*GRAL TAG*/
+a {
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+    display: inline-flex;
+    justify-content: flex-end;
+    padding: 5px;
+    margin: 0px;
+    width: 100%;
 }
