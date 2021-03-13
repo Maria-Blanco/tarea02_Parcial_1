@@ -22,6 +22,7 @@ body {
         background-color: wheat;
         justify-content: center;
 }
+/*CUADRO CON DIVS QUE CAMBIA*/
 #cuadro {
             background-color: thistle;
             width: 95%;
@@ -47,6 +48,7 @@ body {
                         margin-right: 25px;
                         margin-left: 25px;
 }
+/*TABLA*/
 #tabla {
             background-color: plum;
             width: 95%;
