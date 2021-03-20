@@ -1,36 +1,45 @@
 /*HEADER*/
 header {
-            background-color: aquamarine;
+            background-color: rgb(204, 146, 47);
+            height: 60px;
 }
 header > nav >ul {
                     justify-content: flex-end;
+                    padding: 13px;
 }
 header > nav >ul > li > a {
                             margin-right: 10px;
                             color: black;
                             font-size: large;
                             font-weight: bold;
+                            background-color: #fbd8b4;
+                            color: rgb(15, 31, 47);
+                            border-color: rgb(15, 31, 47);
+                            border-radius: 10px 10px 10px 10px;
 }
 header > nav >ul > li > a:hover {
-                                    color: rgb(36, 13, 139);
-                                    font-size: larger;
+                                    color: #fbd8b4;
+                                    background-color: rgb(15, 31, 47);
+                                    font-size: x-large;
                                     font-weight: bolder;
 }
 
 /*BODY*/
 body {
-        background-color: wheat;
+        background-color: #fbf2e2;
         justify-content: center;
+        font-family: Georgia, 'Times New Roman', Times, serif;
 }
 /*CUADRO CON DIVS QUE CAMBIA*/
 #cuadro {
-            background-color: thistle;
+            background-color: rgb(202, 164, 93);
             width: 95%;
             display: block;
             margin-left: auto;
             margin-right: auto;
             margin-top: 20px;
             padding: 20px;
+            height: 250px;
 }
 #cuadro > ul {
                 justify-content: center;
@@ -38,32 +47,44 @@ body {
 #cuadro > ul > li > a {
                         margin-right: 25px;
                         margin-left: 25px;
+                        color: #fbd8b4;
+                        background-color: rgb(10, 39, 73);
+                        border-color: rgb(10, 39, 73);
+                        border-radius: 10px 0px 0px 0px;
 }
-/*Copied this from teacher, check*/
-#info { 
+#cuadro > ul > li > a:hover {
+                                background-color: #fbd8b4;
+                                color: rgb(10, 39, 73);
+                                font-size: large;
+                                font-weight: bold;
+}
+#cambiaDiv { 
     margin: 0px;
     padding: 0px;
+    display: inline-flex;
    }
-#info div {
-            width: 93%;
-            background-color: powderblue;
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-            margin-top: 5px;
-            margin-bottom: 5px;
-            border-radius: 0px 0px 10px 10px; 
-            padding: 5px;
+#cambiaDiv div {
+                    display: block;
+                    position: absolute;
+                    padding: 15px;
+                    border-radius: 10px 10px 10px 10px; 
+                    width: 92%;
+                    background-color: rgb(112, 157, 209);
+                    margin-left: auto;
+                    margin-right: auto;
+                    margin-top: 5px;
+                    margin-bottom: 5px;
    } 
-#info div:not(:nth-child(1)) {
+#cambiaDiv div:not(:nth-child(1)) {
     display: none;
    } 
-#info div:target {
-    display: block;
-}
+#cambiaDiv div:target {
+    display: block; 
+   }
+   
 /*TABLA*/
 #tabla {
-            background-color: plum;
+            background-color: rgb(202, 164, 93);
             width: 95%;
             display: block;
             margin-left: auto;
@@ -73,23 +94,44 @@ body {
             padding: 20px;
 }
 #tabla > table {
-                    width: 30%;
-                    background-color: powderblue;
                     display: block;
                     margin-left: auto;
                     margin-right: auto;
                     margin-top: 5px;
                     margin-bottom: 5px;
+                    border: 1px solid rgb(15, 31, 47);
+                    width: 450px;
 }
+td, th {
+        width: 150px;
+        border: 1px solid rgb(15, 31, 47);
+}
+th{
+    text-align: center;
+}
+#tabla table tr:nth-child(odd){
+                                background-color: rgb(70, 114, 165);
+} 
+#tabla table tr:nth-child(even){
+                                background-color: rgb(238, 207, 153);
+}   
 
 /*FOOTER*/
 footer {
-            background-color: aqua;
+            background-color: rgb(204, 146, 47);
+}
+footer > ul {
+    justify-content: center;
+}
+footer > ul > li {
+                    margin-right: 10px;
 }
 
 /*GRAL TAG*/
 a {
     text-decoration: none;
+    padding: 5px;
+    border: 1px solid;
 }
 ul {
     list-style: none;
